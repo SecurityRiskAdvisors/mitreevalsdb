@@ -1,0 +1,5294 @@
+
+    <!DOCTYPE html><html>
+    <head><style>
+    * {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    }
+    
+    #evaltab {
+    border-collapse: collapse;
+    width: 100%;
+    }
+
+    #evaltab td, #evaltab th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    }
+
+    #evaltab tr:nth-child(even){background-color: #f2f2f2;}
+
+    #evaltab tr:hover {background-color: #ddd;}
+
+    #evaltab th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+    }
+    </style></head>
+    <center><h1>MITRE ATT&CK Evaluations</h1></center><body>
+    <center><h2>T1078 - Valid Accounts</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Valid Accounts<td>
+<td>T1078<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Valid Accounts<td>
+<td>T1078<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Valid Accounts<td>
+<td>T1078<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry,General Behavior<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Valid Accounts<td>
+<td>T1078<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry,Enrichment<td>
+<td>Enrichment<td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Valid Accounts<td>
+<td>T1078<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Valid Accounts<td>
+<td>T1078<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Valid Accounts<td>
+<td>T1078<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1135 - Network Share Discovery</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Network Share Discovery<td>
+<td>T1135<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Network Share Discovery<td>
+<td>T1135<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Network Share Discovery<td>
+<td>T1135<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Network Share Discovery<td>
+<td>T1135<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Network Share Discovery<td>
+<td>T1135<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Network Share Discovery<td>
+<td>T1135<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Network Share Discovery<td>
+<td>T1135<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1083 - File and Directory Discovery</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>File and Directory Discovery<td>
+<td>T1083<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>File and Directory Discovery<td>
+<td>T1083<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>File and Directory Discovery<td>
+<td>T1083<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry,General Behavior<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>File and Directory Discovery<td>
+<td>T1083<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry,Enrichment<td>
+<td>Enrichment<td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>File and Directory Discovery<td>
+<td>T1083<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>File and Directory Discovery<td>
+<td>T1083<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>File and Directory Discovery<td>
+<td>T1083<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1110 - Brute Force</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Brute Force<td>
+<td>T1110<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td>Enrichment<td>
+</tr><tr><td>CounterTack<td>
+<td>Brute Force<td>
+<td>T1110<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry,Enrichment<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Brute Force<td>
+<td>T1110<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry,General Behavior<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Brute Force<td>
+<td>T1110<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry,Enrichment<td>
+<td>Enrichment<td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Brute Force<td>
+<td>T1110<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry<td>
+<td>Specific Behavior<td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Brute Force<td>
+<td>T1110<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Brute Force<td>
+<td>T1110<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1061 - Graphical User Interface</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Graphical User Interface<td>
+<td>T1061<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Graphical User Interface<td>
+<td>T1061<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Graphical User Interface<td>
+<td>T1061<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Graphical User Interface<td>
+<td>T1061<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Graphical User Interface<td>
+<td>T1061<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Graphical User Interface<td>
+<td>T1061<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Graphical User Interface<td>
+<td>T1061<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1222 - File Permissions Modification</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>File Permissions Modification<td>
+<td>T1222<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td>Enrichment<td>
+</tr><tr><td>CounterTack<td>
+<td>File Permissions Modification<td>
+<td>T1222<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>File Permissions Modification<td>
+<td>T1222<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>File Permissions Modification<td>
+<td>T1222<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>File Permissions Modification<td>
+<td>T1222<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>File Permissions Modification<td>
+<td>T1222<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>File Permissions Modification<td>
+<td>T1222<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry,Enrichment<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1036 - Masquerading</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Masquerading<td>
+<td>T1036<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Masquerading<td>
+<td>T1036<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry,Enrichment<td>
+<td><td>
+<td>Enrichment<td>
+</tr><tr><td>Crowdstrike<td>
+<td>Masquerading<td>
+<td>T1036<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry,Specific Behavior<td>
+<td>Specific Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Masquerading<td>
+<td>T1036<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry,Specific Behavior<td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Masquerading<td>
+<td>T1036<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Masquerading<td>
+<td>T1036<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Masquerading<td>
+<td>T1036<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry,Enrichment<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1035 - Service Execution</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Service Execution<td>
+<td>T1035<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Service Execution<td>
+<td>T1035<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Service Execution<td>
+<td>T1035<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry<td>
+<td>Specific Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Service Execution<td>
+<td>T1035<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry,Enrichment<td>
+<td>Enrichment<td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Service Execution<td>
+<td>T1035<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Service Execution<td>
+<td>T1035<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Service Execution<td>
+<td>T1035<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1033 - System Owner/User Discovery</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>System Owner/User Discovery<td>
+<td>T1033<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>System Owner/User Discovery<td>
+<td>T1033<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry,Enrichment<td>
+<td><td>
+<td>Enrichment<td>
+</tr><tr><td>Crowdstrike<td>
+<td>System Owner/User Discovery<td>
+<td>T1033<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry,General Behavior<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>System Owner/User Discovery<td>
+<td>T1033<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry,Enrichment,General Behavior<td>
+<td>Enrichment,General Behavior<td>
+<td>General Behavior<td>
+</tr><tr><td>WindowsDefender<td>
+<td>System Owner/User Discovery<td>
+<td>T1033<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>System Owner/User Discovery<td>
+<td>T1033<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>System Owner/User Discovery<td>
+<td>T1033<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1032 - Standard Cryptographic Protocol</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Standard Cryptographic Protocol<td>
+<td>T1032<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Standard Cryptographic Protocol<td>
+<td>T1032<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Standard Cryptographic Protocol<td>
+<td>T1032<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Standard Cryptographic Protocol<td>
+<td>T1032<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Standard Cryptographic Protocol<td>
+<td>T1032<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Standard Cryptographic Protocol<td>
+<td>T1032<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Standard Cryptographic Protocol<td>
+<td>T1032<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1201 - Password Policy Discovery</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Password Policy Discovery<td>
+<td>T1201<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Password Policy Discovery<td>
+<td>T1201<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Password Policy Discovery<td>
+<td>T1201<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Password Policy Discovery<td>
+<td>T1201<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Password Policy Discovery<td>
+<td>T1201<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Password Policy Discovery<td>
+<td>T1201<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Password Policy Discovery<td>
+<td>T1201<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1113 - Screen Capture</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Screen Capture<td>
+<td>T1113<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Screen Capture<td>
+<td>T1113<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Screen Capture<td>
+<td>T1113<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Screen Capture<td>
+<td>T1113<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Screen Capture<td>
+<td>T1113<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td>Enrichment<td>
+</tr><tr><td>RSA<td>
+<td>Screen Capture<td>
+<td>T1113<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Screen Capture<td>
+<td>T1113<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1204 - User Execution</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>User Execution<td>
+<td>T1204<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>User Execution<td>
+<td>T1204<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>User Execution<td>
+<td>T1204<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>User Execution<td>
+<td>T1204<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>User Execution<td>
+<td>T1204<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>User Execution<td>
+<td>T1204<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>User Execution<td>
+<td>T1204<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1063 - Security Software Discovery</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Security Software Discovery<td>
+<td>T1063<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Security Software Discovery<td>
+<td>T1063<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Security Software Discovery<td>
+<td>T1063<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Security Software Discovery<td>
+<td>T1063<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Security Software Discovery<td>
+<td>T1063<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Security Software Discovery<td>
+<td>T1063<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Security Software Discovery<td>
+<td>T1063<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry,Enrichment<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1039 - Data from Network Shared Drive</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Data from Network Shared Drive<td>
+<td>T1039<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Data from Network Shared Drive<td>
+<td>T1039<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Data from Network Shared Drive<td>
+<td>T1039<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Data from Network Shared Drive<td>
+<td>T1039<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Data from Network Shared Drive<td>
+<td>T1039<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Data from Network Shared Drive<td>
+<td>T1039<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Data from Network Shared Drive<td>
+<td>T1039<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1055 - Process Injection</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Process Injection<td>
+<td>T1055<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Process Injection<td>
+<td>T1055<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>yes<td>
+<td>Specific Behavior<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Process Injection<td>
+<td>T1055<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>yes<td>
+<td>yes<td>
+<td>General Behavior,Specific Behavior<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Process Injection<td>
+<td>T1055<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry,Specific Behavior<td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Process Injection<td>
+<td>T1055<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry,Enrichment<td>
+<td>Specific Behavior<td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Process Injection<td>
+<td>T1055<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Process Injection<td>
+<td>T1055<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1018 - Remote System Discovery</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Remote System Discovery<td>
+<td>T1018<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Remote System Discovery<td>
+<td>T1018<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>Enrichment<td>
+<td><td>
+<td>Enrichment<td>
+</tr><tr><td>Crowdstrike<td>
+<td>Remote System Discovery<td>
+<td>T1018<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry,Enrichment<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Remote System Discovery<td>
+<td>T1018<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry,Enrichment<td>
+<td>Enrichment<td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Remote System Discovery<td>
+<td>T1018<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Remote System Discovery<td>
+<td>T1018<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Remote System Discovery<td>
+<td>T1018<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1071 - Standard Application Layer Protocol</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Standard Application Layer Protocol<td>
+<td>T1071<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Standard Application Layer Protocol<td>
+<td>T1071<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Standard Application Layer Protocol<td>
+<td>T1071<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>yes<td>
+<td><td>
+<td>General Behavior,Specific Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Standard Application Layer Protocol<td>
+<td>T1071<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Standard Application Layer Protocol<td>
+<td>T1071<td>
+<td>yes<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td>Telemetry,Indicator of Compromise<td>
+</tr><tr><td>RSA<td>
+<td>Standard Application Layer Protocol<td>
+<td>T1071<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Standard Application Layer Protocol<td>
+<td>T1071<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1056 - Input Capture</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Input Capture<td>
+<td>T1056<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Input Capture<td>
+<td>T1056<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Input Capture<td>
+<td>T1056<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td><td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Input Capture<td>
+<td>T1056<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Input Capture<td>
+<td>T1056<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry<td>
+<td>Specific Behavior<td>
+<td>Telemetry<td>
+</tr><tr><td>RSA<td>
+<td>Input Capture<td>
+<td>T1056<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Input Capture<td>
+<td>T1056<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry,Enrichment<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1132 - Data Encoding</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Data Encoding<td>
+<td>T1132<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Data Encoding<td>
+<td>T1132<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Data Encoding<td>
+<td>T1132<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Data Encoding<td>
+<td>T1132<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Data Encoding<td>
+<td>T1132<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Data Encoding<td>
+<td>T1132<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Data Encoding<td>
+<td>T1132<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1076 - Remote Desktop Protocol</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Remote Desktop Protocol<td>
+<td>T1076<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Remote Desktop Protocol<td>
+<td>T1076<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>Enrichment<td>
+<td><td>
+<td>Enrichment<td>
+</tr><tr><td>Crowdstrike<td>
+<td>Remote Desktop Protocol<td>
+<td>T1076<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td><td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Remote Desktop Protocol<td>
+<td>T1076<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Remote Desktop Protocol<td>
+<td>T1076<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Remote Desktop Protocol<td>
+<td>T1076<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Remote Desktop Protocol<td>
+<td>T1076<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1053 - Scheduled Task</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Scheduled Task<td>
+<td>T1053<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Scheduled Task<td>
+<td>T1053<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Scheduled Task<td>
+<td>T1053<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>yes<td>
+<td>Telemetry,General Behavior<td>
+<td>General Behavior,Specific Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Scheduled Task<td>
+<td>T1053<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry,Enrichment,Specific Behavior<td>
+<td>Enrichment<td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Scheduled Task<td>
+<td>T1053<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td><td>
+<td>Specific Behavior<td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Scheduled Task<td>
+<td>T1053<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Scheduled Task<td>
+<td>T1053<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1074 - Data Staged</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Data Staged<td>
+<td>T1074<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Data Staged<td>
+<td>T1074<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Data Staged<td>
+<td>T1074<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td><td>
+<td>Specific Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Data Staged<td>
+<td>T1074<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Data Staged<td>
+<td>T1074<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Data Staged<td>
+<td>T1074<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Data Staged<td>
+<td>T1074<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1010 - Application Window Discovery</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Application Window Discovery<td>
+<td>T1010<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Application Window Discovery<td>
+<td>T1010<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Application Window Discovery<td>
+<td>T1010<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Application Window Discovery<td>
+<td>T1010<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Application Window Discovery<td>
+<td>T1010<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Application Window Discovery<td>
+<td>T1010<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Application Window Discovery<td>
+<td>T1010<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1012 - Query Registry</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Query Registry<td>
+<td>T1012<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Query Registry<td>
+<td>T1012<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Query Registry<td>
+<td>T1012<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry,General Behavior<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Query Registry<td>
+<td>T1012<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry,Enrichment,General Behavior<td>
+<td>Enrichment,General Behavior<td>
+<td>General Behavior<td>
+</tr><tr><td>WindowsDefender<td>
+<td>Query Registry<td>
+<td>T1012<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Query Registry<td>
+<td>T1012<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Query Registry<td>
+<td>T1012<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1059 - Command-Line Interface</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Command-Line Interface<td>
+<td>T1059<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Command-Line Interface<td>
+<td>T1059<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Command-Line Interface<td>
+<td>T1059<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Command-Line Interface<td>
+<td>T1059<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry,Enrichment<td>
+<td>Enrichment<td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Command-Line Interface<td>
+<td>T1059<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Command-Line Interface<td>
+<td>T1059<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Command-Line Interface<td>
+<td>T1059<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1016 - System Network Configuration Discovery</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>System Network Configuration Discovery<td>
+<td>T1016<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>System Network Configuration Discovery<td>
+<td>T1016<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry,Enrichment<td>
+<td><td>
+<td>Enrichment<td>
+</tr><tr><td>Crowdstrike<td>
+<td>System Network Configuration Discovery<td>
+<td>T1016<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>System Network Configuration Discovery<td>
+<td>T1016<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry,General Behavior<td>
+<td>General Behavior<td>
+<td>General Behavior<td>
+</tr><tr><td>WindowsDefender<td>
+<td>System Network Configuration Discovery<td>
+<td>T1016<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>System Network Configuration Discovery<td>
+<td>T1016<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>System Network Configuration Discovery<td>
+<td>T1016<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1082 - System Information Discovery</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>System Information Discovery<td>
+<td>T1082<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>System Information Discovery<td>
+<td>T1082<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>System Information Discovery<td>
+<td>T1082<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>System Information Discovery<td>
+<td>T1082<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry,General Behavior<td>
+<td>General Behavior<td>
+<td>General Behavior<td>
+</tr><tr><td>WindowsDefender<td>
+<td>System Information Discovery<td>
+<td>T1082<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>System Information Discovery<td>
+<td>T1082<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>System Information Discovery<td>
+<td>T1082<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1136 - Create Account</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Create Account<td>
+<td>T1136<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td>Enrichment<td>
+</tr><tr><td>CounterTack<td>
+<td>Create Account<td>
+<td>T1136<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td><td>
+<td><td>
+<td>Specific Behavior<td>
+</tr><tr><td>Crowdstrike<td>
+<td>Create Account<td>
+<td>T1136<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Create Account<td>
+<td>T1136<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Create Account<td>
+<td>T1136<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td>Telemetry<td>
+</tr><tr><td>RSA<td>
+<td>Create Account<td>
+<td>T1136<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Create Account<td>
+<td>T1136<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1050 - New Service</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>New Service<td>
+<td>T1050<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>New Service<td>
+<td>T1050<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry<td>
+<td><td>
+<td>Specific Behavior<td>
+</tr><tr><td>Crowdstrike<td>
+<td>New Service<td>
+<td>T1050<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>New Service<td>
+<td>T1050<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry,Enrichment<td>
+<td>Enrichment<td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>New Service<td>
+<td>T1050<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>New Service<td>
+<td>T1050<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>New Service<td>
+<td>T1050<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1081 - Credentials in Files</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Credentials in Files<td>
+<td>T1081<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Credentials in Files<td>
+<td>T1081<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Credentials in Files<td>
+<td>T1081<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td><td>
+<td>Specific Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Credentials in Files<td>
+<td>T1081<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Credentials in Files<td>
+<td>T1081<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Credentials in Files<td>
+<td>T1081<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Credentials in Files<td>
+<td>T1081<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1086 - PowerShell</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>PowerShell<td>
+<td>T1086<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>PowerShell<td>
+<td>T1086<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>PowerShell<td>
+<td>T1086<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>PowerShell<td>
+<td>T1086<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>PowerShell<td>
+<td>T1086<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>PowerShell<td>
+<td>T1086<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>PowerShell<td>
+<td>T1086<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1087 - Account Discovery</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Account Discovery<td>
+<td>T1087<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Account Discovery<td>
+<td>T1087<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry,Enrichment<td>
+<td><td>
+<td>Enrichment<td>
+</tr><tr><td>Crowdstrike<td>
+<td>Account Discovery<td>
+<td>T1087<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Account Discovery<td>
+<td>T1087<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry,Enrichment,General Behavior<td>
+<td>Enrichment,General Behavior<td>
+<td>General Behavior<td>
+</tr><tr><td>WindowsDefender<td>
+<td>Account Discovery<td>
+<td>T1087<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>yes<td>
+<td>Telemetry<td>
+<td>General Behavior,Specific Behavior<td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Account Discovery<td>
+<td>T1087<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Account Discovery<td>
+<td>T1087<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1085 - Rundll32</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Rundll32<td>
+<td>T1085<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Rundll32<td>
+<td>T1085<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Rundll32<td>
+<td>T1085<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>yes<td>
+<td><td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Rundll32<td>
+<td>T1085<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry,Specific Behavior<td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Rundll32<td>
+<td>T1085<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td><td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Rundll32<td>
+<td>T1085<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Rundll32<td>
+<td>T1085<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1088 - Bypass User Account Control</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Bypass User Account Control<td>
+<td>T1088<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Bypass User Account Control<td>
+<td>T1088<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Bypass User Account Control<td>
+<td>T1088<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td><td>
+<td>Specific Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Bypass User Account Control<td>
+<td>T1088<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Bypass User Account Control<td>
+<td>T1088<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Bypass User Account Control<td>
+<td>T1088<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Bypass User Account Control<td>
+<td>T1088<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1057 - Process Discovery</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Process Discovery<td>
+<td>T1057<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Process Discovery<td>
+<td>T1057<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Process Discovery<td>
+<td>T1057<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry,General Behavior<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Process Discovery<td>
+<td>T1057<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry,General Behavior<td>
+<td>General Behavior<td>
+<td>General Behavior<td>
+</tr><tr><td>WindowsDefender<td>
+<td>Process Discovery<td>
+<td>T1057<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Process Discovery<td>
+<td>T1057<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Process Discovery<td>
+<td>T1057<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1022 - Data Encrypted</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Data Encrypted<td>
+<td>T1022<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Data Encrypted<td>
+<td>T1022<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry,Enrichment<td>
+<td><td>
+<td>Enrichment<td>
+</tr><tr><td>Crowdstrike<td>
+<td>Data Encrypted<td>
+<td>T1022<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>Specific Behavior<td>
+<td>Specific Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Data Encrypted<td>
+<td>T1022<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry,Enrichment,Specific Behavior<td>
+<td>Enrichment<td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Data Encrypted<td>
+<td>T1022<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Data Encrypted<td>
+<td>T1022<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Data Encrypted<td>
+<td>T1022<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1106 - Execution through API</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Execution through API<td>
+<td>T1106<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Execution through API<td>
+<td>T1106<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Execution through API<td>
+<td>T1106<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Execution through API<td>
+<td>T1106<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Execution through API<td>
+<td>T1106<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Execution through API<td>
+<td>T1106<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Execution through API<td>
+<td>T1106<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1026 - Multiband Communication</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Multiband Communication<td>
+<td>T1026<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Multiband Communication<td>
+<td>T1026<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Multiband Communication<td>
+<td>T1026<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Multiband Communication<td>
+<td>T1026<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Multiband Communication<td>
+<td>T1026<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Multiband Communication<td>
+<td>T1026<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Multiband Communication<td>
+<td>T1026<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1077 - Windows Admin Shares</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Windows Admin Shares<td>
+<td>T1077<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Windows Admin Shares<td>
+<td>T1077<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry,Enrichment<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Windows Admin Shares<td>
+<td>T1077<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry,General Behavior<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Windows Admin Shares<td>
+<td>T1077<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry,Enrichment,Specific Behavior<td>
+<td>Enrichment<td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Windows Admin Shares<td>
+<td>T1077<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry<td>
+<td>Specific Behavior<td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Windows Admin Shares<td>
+<td>T1077<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Windows Admin Shares<td>
+<td>T1077<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1069 - Permission Groups Discovery</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Permission Groups Discovery<td>
+<td>T1069<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Permission Groups Discovery<td>
+<td>T1069<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>Enrichment<td>
+<td><td>
+<td>Enrichment<td>
+</tr><tr><td>Crowdstrike<td>
+<td>Permission Groups Discovery<td>
+<td>T1069<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry,Enrichment<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Permission Groups Discovery<td>
+<td>T1069<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry,Enrichment,General Behavior<td>
+<td>Enrichment,General Behavior<td>
+<td>General Behavior<td>
+</tr><tr><td>WindowsDefender<td>
+<td>Permission Groups Discovery<td>
+<td>T1069<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Permission Groups Discovery<td>
+<td>T1069<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Permission Groups Discovery<td>
+<td>T1069<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1126 - Network Share Connection Removal</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Network Share Connection Removal<td>
+<td>T1126<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Network Share Connection Removal<td>
+<td>T1126<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Network Share Connection Removal<td>
+<td>T1126<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Network Share Connection Removal<td>
+<td>T1126<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Network Share Connection Removal<td>
+<td>T1126<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Network Share Connection Removal<td>
+<td>T1126<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Network Share Connection Removal<td>
+<td>T1126<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1107 - File Deletion</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>File Deletion<td>
+<td>T1107<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>File Deletion<td>
+<td>T1107<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>File Deletion<td>
+<td>T1107<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td><td>
+<td>Specific Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>File Deletion<td>
+<td>T1107<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>File Deletion<td>
+<td>T1107<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>File Deletion<td>
+<td>T1107<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>File Deletion<td>
+<td>T1107<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1043 - Commonly Used Port</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Commonly Used Port<td>
+<td>T1043<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Commonly Used Port<td>
+<td>T1043<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Commonly Used Port<td>
+<td>T1043<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Commonly Used Port<td>
+<td>T1043<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>yes<td>
+<td>Telemetry,Specific Behavior<td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Commonly Used Port<td>
+<td>T1043<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Commonly Used Port<td>
+<td>T1043<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Commonly Used Port<td>
+<td>T1043<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1105 - Remote File Copy</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Remote File Copy<td>
+<td>T1105<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Remote File Copy<td>
+<td>T1105<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry,Enrichment<td>
+<td><td>
+<td>Enrichment,General Behavior<td>
+</tr><tr><td>Crowdstrike<td>
+<td>Remote File Copy<td>
+<td>T1105<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>yes<td>
+<td>Telemetry<td>
+<td>General Behavior,Specific Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Remote File Copy<td>
+<td>T1105<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Remote File Copy<td>
+<td>T1105<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Remote File Copy<td>
+<td>T1105<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Remote File Copy<td>
+<td>T1105<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1134 - Access Token Manipulation</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Access Token Manipulation<td>
+<td>T1134<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Access Token Manipulation<td>
+<td>T1134<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Access Token Manipulation<td>
+<td>T1134<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Access Token Manipulation<td>
+<td>T1134<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Access Token Manipulation<td>
+<td>T1134<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Access Token Manipulation<td>
+<td>T1134<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Access Token Manipulation<td>
+<td>T1134<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1064 - Scripting</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Scripting<td>
+<td>T1064<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Scripting<td>
+<td>T1064<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Scripting<td>
+<td>T1064<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>yes<td>
+<td><td>
+<td>General Behavior,Specific Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Scripting<td>
+<td>T1064<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry,Specific Behavior<td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Scripting<td>
+<td>T1064<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry<td>
+<td>Specific Behavior<td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Scripting<td>
+<td>T1064<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Scripting<td>
+<td>T1064<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1003 - Credential Dumping</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Credential Dumping<td>
+<td>T1003<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Credential Dumping<td>
+<td>T1003<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Credential Dumping<td>
+<td>T1003<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>yes<td>
+<td>General Behavior,Specific Behavior<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Credential Dumping<td>
+<td>T1003<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Credential Dumping<td>
+<td>T1003<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>Enrichment<td>
+<td>Specific Behavior<td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Credential Dumping<td>
+<td>T1003<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Credential Dumping<td>
+<td>T1003<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1041 - Exfiltration Over Command and Control Channel</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Exfiltration Over Command and Control Channel<td>
+<td>T1041<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Exfiltration Over Command and Control Channel<td>
+<td>T1041<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Exfiltration Over Command and Control Channel<td>
+<td>T1041<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Exfiltration Over Command and Control Channel<td>
+<td>T1041<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Exfiltration Over Command and Control Channel<td>
+<td>T1041<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Exfiltration Over Command and Control Channel<td>
+<td>T1041<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Exfiltration Over Command and Control Channel<td>
+<td>T1041<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1060 - Registry Run Keys / Startup Folder</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Registry Run Keys / Startup Folder<td>
+<td>T1060<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Registry Run Keys / Startup Folder<td>
+<td>T1060<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Registry Run Keys / Startup Folder<td>
+<td>T1060<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Registry Run Keys / Startup Folder<td>
+<td>T1060<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry,Specific Behavior<td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Registry Run Keys / Startup Folder<td>
+<td>T1060<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Registry Run Keys / Startup Folder<td>
+<td>T1060<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Registry Run Keys / Startup Folder<td>
+<td>T1060<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1007 - System Service Discovery</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>System Service Discovery<td>
+<td>T1007<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>System Service Discovery<td>
+<td>T1007<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry,Enrichment<td>
+<td><td>
+<td>Enrichment<td>
+</tr><tr><td>Crowdstrike<td>
+<td>System Service Discovery<td>
+<td>T1007<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>yes<td>
+<td>Telemetry<td>
+<td>General Behavior,Specific Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>System Service Discovery<td>
+<td>T1007<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry,Enrichment,General Behavior<td>
+<td>Enrichment,General Behavior<td>
+<td>General Behavior<td>
+</tr><tr><td>WindowsDefender<td>
+<td>System Service Discovery<td>
+<td>T1007<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>System Service Discovery<td>
+<td>T1007<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>System Service Discovery<td>
+<td>T1007<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1048 - Exfiltration Over Alternative Protocol</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Exfiltration Over Alternative Protocol<td>
+<td>T1048<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Exfiltration Over Alternative Protocol<td>
+<td>T1048<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Exfiltration Over Alternative Protocol<td>
+<td>T1048<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>yes<td>
+<td>General Behavior<td>
+<td>General Behavior,Specific Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Exfiltration Over Alternative Protocol<td>
+<td>T1048<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Exfiltration Over Alternative Protocol<td>
+<td>T1048<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Exfiltration Over Alternative Protocol<td>
+<td>T1048<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Exfiltration Over Alternative Protocol<td>
+<td>T1048<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1049 - System Network Connections Discovery</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>System Network Connections Discovery<td>
+<td>T1049<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>System Network Connections Discovery<td>
+<td>T1049<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>System Network Connections Discovery<td>
+<td>T1049<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>System Network Connections Discovery<td>
+<td>T1049<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry,Enrichment,Specific Behavior<td>
+<td>Enrichment<td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>System Network Connections Discovery<td>
+<td>T1049<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>Telemetry<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>System Network Connections Discovery<td>
+<td>T1049<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>System Network Connections Discovery<td>
+<td>T1049<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1002 - Data Compressed</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Data Compressed<td>
+<td>T1002<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Data Compressed<td>
+<td>T1002<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry,Enrichment<td>
+<td><td>
+<td>Enrichment<td>
+</tr><tr><td>Crowdstrike<td>
+<td>Data Compressed<td>
+<td>T1002<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>Specific Behavior<td>
+<td>Specific Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Data Compressed<td>
+<td>T1002<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry,Enrichment,Specific Behavior<td>
+<td>Enrichment<td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Data Compressed<td>
+<td>T1002<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Data Compressed<td>
+<td>T1002<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Data Compressed<td>
+<td>T1002<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1115 - Clipboard Data</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Clipboard Data<td>
+<td>T1115<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Clipboard Data<td>
+<td>T1115<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Crowdstrike<td>
+<td>Clipboard Data<td>
+<td>T1115<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Clipboard Data<td>
+<td>T1115<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Clipboard Data<td>
+<td>T1115<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Clipboard Data<td>
+<td>T1115<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Clipboard Data<td>
+<td>T1115<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr></table>
+
+    <center><h2>T1015 - Accessibility Features</h2></center>
+    <table id="evaltab" border="1">
+        <tr>
+            <th>Vendor<th>
+            <th>Technique Name<th>
+            <th>Technique ID<th>
+            <th>Telemtry<th>
+            <th>Indicator of Compromise<th>
+            <th>Enrichment<th>
+            <th>General Behavior<th>
+            <th>Specific Behavior<th>
+            <th>Tainted<th>
+            <th>Delayed<th>
+            <th>Configuration Change<th>
+        </tr>
+    <tr><td>CarbonBlack<td>
+<td>Accessibility Features<td>
+<td>T1015<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>yes<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>CounterTack<td>
+<td>Accessibility Features<td>
+<td>T1015<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry,Enrichment<td>
+<td><td>
+<td>Enrichment<td>
+</tr><tr><td>Crowdstrike<td>
+<td>Accessibility Features<td>
+<td>T1015<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td>yes<td>
+<td>Telemetry<td>
+<td>General Behavior<td>
+<td><td>
+</tr><tr><td>Endgame<td>
+<td>Accessibility Features<td>
+<td>T1015<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>no<td>
+<td>yes<td>
+<td>Telemetry,Enrichment<td>
+<td>Enrichment<td>
+<td><td>
+</tr><tr><td>WindowsDefender<td>
+<td>Accessibility Features<td>
+<td>T1015<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>yes<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>RSA<td>
+<td>Accessibility Features<td>
+<td>T1015<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td><td>
+<td><td>
+<td><td>
+</tr><tr><td>SentinelOne<td>
+<td>Accessibility Features<td>
+<td>T1015<td>
+<td>yes<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>no<td>
+<td>Telemetry<td>
+<td><td>
+<td><td>
+</tr></table>
+</body></html>
