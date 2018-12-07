@@ -1,6 +1,6 @@
 # MITRE ATT&CK Evaluation DB
 
-Originally featured in this blog post: <link here>
+Originally featured in this blog post: https://securityriskadvisors.com/blog/a-closer-look-at-mitre-attck-evaluation-data/
 
 ## Database
 
